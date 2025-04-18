@@ -1,6 +1,7 @@
 #!/bin/sh
 #========================
 # Description: this script checks if .htaccess files have been changed in order to restart the Open LiteSpeed webserver
+# Environment: Almalinux, DirectAdmin (might need adjustments for other setups)
 # Save the script in /root/scripts/open-restart-check.sh and make sure you enter your own email address in the mail command.
 # Usage: call this script in /etc/cron.d/openlitespeed_htaccess_scan with the following line:
 # */3 * * * root /root/scripts/open-restart-check.sh
